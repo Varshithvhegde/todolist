@@ -1,0 +1,74 @@
+body {
+    background: #faf9f9;
+}
+
+.todos-container {
+    background: #add2c9;
+    padding: 50px 0;
+}
+
+.title {
+    margin: 50px;
+}
+
+.add-div {
+    margin-bottom: 30px;
+}
+
+.high-priority{
+    margin-right: 10px;
+}
+
+.todo {
+    margin: 10px;
+}
+
+.low-priority-div .todo-content{
+    background: #5ea3a3;
+}
+
+.high-priority-div .todo-content{
+    background: #C11327;
+}
+
+.todo-content{
+    padding: 0;
+}
+.disabled-button{
+    pointer-events: none;
+    opacity: 0.4;
+}
+.todo-content-value{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    
+    padding: 0 15px;
+    vertical-align: middle;
+}
+
+.todo-content .completed{
+    text-decoration: line-through;
+}
+
+.todo-buttons .btn{
+    margin-right: 5px;
+}
+
+.todo-buttons .fa-pen {
+    color: #faf9f9;
+}
+
+.fa-eye{
+    transform: scale(-1, 1);
+}
+
+.todos-container-buttons{
+    margin-top: 20px;
+}
+
+.todos-container-buttons .btn{
+    margin: 10px;
+}
